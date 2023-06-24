@@ -110,7 +110,7 @@ int main(void)
   LED_Init();
   DB_TRACE(" * LED initialized\r\n");
   TIM2_Init();
-  ADC2_Init();
+  ADC_Charging_Init();
   // Perimeter_vInit();
   DB_TRACE(" * ADC1 initialized\r\n");
   TIM3_Init();
